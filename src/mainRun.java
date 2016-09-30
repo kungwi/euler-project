@@ -1,4 +1,4 @@
-import Problems001_050.problem003 ;
+import Problems001_050.*;
 import java.util.Scanner ;
 /**
  *
@@ -8,7 +8,7 @@ public class mainRun {
     
         public static void main(String[] args) {
         
-        problem003 pr = new problem003(600851475143L) ;
+        problem004 pr = new problem004() ;
         long ans= pr.solve() ;
     
         System.out.println(ans); }
