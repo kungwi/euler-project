@@ -1,6 +1,4 @@
 package Problems001_050;
-import java.util.List;
-import java.util.ArrayList;
 /**
  *
  * @author thales
@@ -38,6 +36,5 @@ public class problem018 {
     public int solve() {
         int mx=0 ;
         for(int i=0 ; i<15 ; i++) if (triag[14][i]>mx) mx = triag[14][i] ;
-    
     return mx ; }
 }
