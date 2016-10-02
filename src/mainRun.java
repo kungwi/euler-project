@@ -7,7 +7,7 @@ public class mainRun {
     
         public static void main(String[] args) {
         
-        problem012 pr = new problem012(500) ;
+        problem015 pr = new problem015(21) ;
         long ans= pr.solve() ;
     
         System.out.println(ans); }
