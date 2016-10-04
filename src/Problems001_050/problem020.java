@@ -22,7 +22,5 @@ public class problem020 {
         String s = this.factorial.toString() ;
         for(int i=0 ; i<s.length() ; i++) sum += s.charAt(i)-'0' ;
         
-    return sum ; }
-    
-    
+    return sum ; }  
 }
