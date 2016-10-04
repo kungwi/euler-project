@@ -7,9 +7,8 @@ public class mainRun {
     
         public static void main(String[] args) {
         
-        problem019 pr = new problem019() ;
+        problem020 pr = new problem020(100) ;
         long ans= pr.solve() ;
     
         System.out.println(ans); }
-    
 }
