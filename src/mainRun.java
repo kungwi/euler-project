@@ -8,7 +8,7 @@ public class mainRun {
     
         public static void main(String[] args) throws IOException {
         
-        problem022 pr = new problem022("src/p022_names.txt") ;
+        problem023 pr = new problem023(30000) ;
         long ans= pr.solve() ;
     
         System.out.println(ans); }
