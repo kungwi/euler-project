@@ -7,9 +7,11 @@ import java.io.IOException;
 public class mainRun {
     
         public static void main(String[] args) throws IOException {
-        
-        problem023 pr = new problem023(30000) ;
-        long ans= pr.solve() ;
+        long start_time = System.currentTimeMillis();
+        problem024 pr = new problem024(10,1000000) ;
+        String ans= pr.solve() ;
     
-        System.out.println(ans); }
+        System.out.println(ans); 
+        
+        System.out.println("running time: " + (System.currentTimeMillis() - start_time)); }
 }
