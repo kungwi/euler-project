@@ -8,10 +8,7 @@ public class mainRun {
     
         public static void main(String[] args) throws IOException {
         long start_time = System.currentTimeMillis();
-        problem024 pr = new problem024(10,1000000) ;
-        String ans= pr.solve() ;
-    
-        System.out.println(ans); 
-        
+        problem025 pr = new problem025(1000) ;
+        System.out.println(pr.solve()); 
         System.out.println("running time: " + (System.currentTimeMillis() - start_time)); }
 }
